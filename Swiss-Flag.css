@@ -1,0 +1,23 @@
+.container {
+    margin: auto;
+    padding: auto;
+    background-color: antiquewhite;
+    border-color: black;
+    position: relative;
+}
+
+.column {
+    margin: auto;
+    padding: auto;
+    background-color: antiquewhite;
+    border-color: black;
+    position: absolute;
+}
+
+.row {
+    margin: auto;
+    padding: auto;
+    background-color: antiquewhite;
+    border-color: black;
+    position: absolute;
+}
