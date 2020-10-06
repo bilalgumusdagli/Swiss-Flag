@@ -1,23 +1,29 @@
-.container {
-    margin: auto;
-    padding: auto;
-    background-color: antiquewhite;
-    border-color: black;
-    position: relative;
-}
-
-.column {
-    margin: auto;
-    padding: auto;
-    background-color: antiquewhite;
-    border-color: black;
-    position: absolute;
-}
-
-.row {
-    margin: auto;
-    padding: auto;
-    background-color: antiquewhite;
-    border-color: black;
-    position: absolute;
-}
+         #container {
+         background-color: red;
+         height: 500px;
+         width: 500px;
+         position: absolute;
+         z-index: 1;
+         left: 50px;
+         top: 50px;
+     }
+     /* kutucuklari z-index property si ile deger vererek üst üste konumlandirdim. */
+     
+     #column {
+         background-color: white;
+         height: 300px;
+         width: 100px;
+         position: absolute;
+         z-index: 2;
+         left: 250px;
+         top: 150px;
+     }
+     
+     #row {
+         background-color: white;
+         height: 100px;
+         width: 300px;
+         position: absolute;
+         z-index: 3;
+         left: 150px;
+         top: 250px;
